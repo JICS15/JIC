@@ -28,7 +28,7 @@ irssi
 #; Set Nickname as your Force Identifier i.e. AS1234
 /nick AS1234
 
-#; Connect to Internet Relay w/ Key (String @ Line 6)
+#; Connect to Internet Relay w/ Key (String @ Line 16)
 /join #JIC [KEY]
 
 #; Identify as your Force Identifier
