@@ -1,0 +1,80 @@
+#########################################
+#########################################
+
+#########################################
+Channels 21 January 2022 18:57:26
+#JIC
+#JIC-SU
+#########################################
+
+
+#########################################
+GitBash CLI - Windows Vista-11
+Cygwin64 CLI - Windows Vista-11
+#########################################
+
+#bash/bin intelligence2600
+#; IRSSI
+
+#; Run IRSSI-IRC Client 
+irssi
+
+#; Autolog ; ALWAYS TURN ON EVERY SESSION CONNECT, OR RISK LOSING LOGFILE DATA
+/autolog on
+
+#; JIC-BCATNGO-BSC-PS Internet Relay Server
+/connect irc.libera.chat 6667 [FORCE-IDENTIFIER:PASSPHRASE]
+
+#; Set Nickname as your Force Identifier i.e. AS1234
+/nick AS1234
+
+#; Connect to Internet Relay w/ Key (String @ Line 6)
+/join #JIC [KEY]
+
+#; Identify as your Force Identifier
+#; Format [[AIRWAVE CALLSIGN]-[STATUS]-[92-CODE]-[MSG]] i.e. I99 STATUS 11 30 HAND-OFF TO SUZY
+[CS] STATUS [SC] 
+
+#;Report
+39715
+
+#; Exit/Quit : Never use disconnect, unless you fancy to re-type your Internet Relay strings lol
+/quit
+
+
+
+#########################################
+Termux CLI Terminal Commandline - Android
+iSH CLI Terminal Commandline ISE - iOS
+#########################################
+
+#bash/bin
+#; IRSSI
+
+#; Run IRSSI-IRC Client 
+irssi
+
+#; Autolog ; ALWAYS TURN ON EVERY SESSION CONNECT, OR RISK LOSING LOGFILE DATA
+/set autolog on
+
+#; JIC-BCATNGO-BSC-PS Internet Relay Server
+/connect irc.libera.chat 6667 [FORCE-IDENTIFIER:PASSPHRASE]
+
+#; Set Nickname as your Force Identifier i.e. AS1234
+/nick AS1234
+
+#; Connect to Internet Relay w/ Key (String @ Line 6)
+/join #JIC [KEY]
+
+#; Identify as your Force Identifier
+#; Format [[AIRWAVE CALLSIGN]-[STATUS]-[92-CODE]-[MSG]] i.e. I99 STATUS 11 30 HAND-OFF TO SUZY
+[CS] STATUS [SC] 
+
+#;Report
+39715
+
+#; Exit/Quit : Never use disconnect, unless you fancy to re-type your Internet Relay strings lol
+/quit
+
+#########################################
+#########################################
